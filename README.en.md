@@ -64,7 +64,7 @@ Examples:
 - Claude Code (project scope): `.claude/skills/analizador-web/`
 - Other Agent Skills-compatible clients: use the client's documented skills directory.
 
-For Claude.ai, create the upload ZIP with `python scripts/package_skill.py` (Windows: `py scripts/package_skill.py`). Upload `dist/analizador-web-1.0.0.zip` through **Settings / Customize → Skills** (availability and menu labels may vary by plan and client version). The packaging script places `SKILL.md` at the ZIP root, as required by the Skill upload flow.
+For Claude.ai, create the upload ZIP with `python scripts/package_skill.py` (Windows: `py scripts/package_skill.py`). Upload `dist/analizador-web-1.1.0.zip` through **Settings / Customize → Skills** (availability and menu labels may vary by plan and client version). The packaging script places `SKILL.md` at the ZIP root, as required by the Skill upload flow.
 
 The skill instructions can be loaded in clients that support Agent Skills. Actual script execution still depends on the client's code-execution environment having Python, Playwright, Chromium, and permitted network access.
 
