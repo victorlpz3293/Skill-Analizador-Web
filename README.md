@@ -64,7 +64,7 @@ Ejemplos:
 - Claude Code (ámbito de proyecto): `.claude/skills/analizador-web/`
 - Otros clientes compatibles con Agent Skills: utiliza el directorio de Skills documentado por cada cliente.
 
-Para Claude.ai, genera el ZIP con `python scripts/package_skill.py` (Windows: `py scripts/package_skill.py`). Sube `dist/analizador-web-1.0.0.zip` mediante **Settings / Customize → Skills** (la disponibilidad y los nombres de los menús pueden variar según el plan y la versión del cliente). El paquete coloca `SKILL.md` en la raíz del ZIP, según requiere el flujo de carga de Skills.
+Para Claude.ai, genera el ZIP con `python scripts/package_skill.py` (Windows: `py scripts/package_skill.py`). Sube `dist/analizador-web-1.1.0.zip` mediante **Settings / Customize → Skills** (la disponibilidad y los nombres de los menús pueden variar según el plan y la versión del cliente). El paquete coloca `SKILL.md` en la raíz del ZIP, según requiere el flujo de carga de Skills.
 
 Las instrucciones pueden cargarse en clientes compatibles con Agent Skills. La ejecución de scripts depende además de que el entorno disponga de Python, Playwright, Chromium y acceso de red permitido.
 
