@@ -1,4 +1,7 @@
 import unittest
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "skills" / "analizador-web" / "scripts"))
 from unittest.mock import patch
 from safety import UnsafeTarget, validate_public_url, redact_url
 
