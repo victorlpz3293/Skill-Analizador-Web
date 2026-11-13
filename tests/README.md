@@ -1,0 +1,1 @@
+Run the safety unit tests from the repository root with `python -m unittest discover -s tests -v`. The tests cover URL scheme, credentials, port, localhost, DNS-to-private-address rejection, public-address acceptance, and URL redaction. They do not replace end-to-end browser tests or OS-level egress restrictions.
