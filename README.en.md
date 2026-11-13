@@ -1,6 +1,7 @@
-# Analizador-Web
+# Analizador Web / Web Analyzer
 
-**Bilingual Website Audit & Inspection Agent Skill**
+**English name: Web Analyzer · Nombre en español: Analizador Web**  
+Bilingual Website Audit & Inspection Agent Skill
 
 Analizador-Web is an independent, portable Agent Skill maintained by [@victorlpz3293](https://github.com/victorlpz3293). It helps compatible AI agents inspect public websites using a real Chromium browser powered by the official [Playwright for Python](https://playwright.dev/python/) framework.
 
