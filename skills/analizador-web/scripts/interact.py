@@ -23,7 +23,11 @@ def main():
     a=ap.parse_args()
     try: start=validate_public_url(a.url if "://" in a.url else "https://"+a.url)
     except UnsafeTarget as exc: ap.error(str(exc))
-    \n    candidate=Path(a.steps)\n    try: is_file=candidate.is_file()\n    except OSError: is_file=False\n    raw=candidate.read_text(encoding="utf-8") if is_file else a.steps
+    
+    candidate=Path(a.steps)
+    try: is_file=candidate.is_file()
+    except OSError: is_file=False
+    raw=candidate.read_text(encoding="utf-8") if is_file else a.steps
     try: steps=json.loads(raw)
     except Exception as exc: ap.error(f"Invalid steps JSON: {exc}")
     if not isinstance(steps,list): ap.error("Steps must be a JSON array")
