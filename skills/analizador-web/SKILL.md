@@ -1,9 +1,10 @@
 ---
 name: analizador-web
-description: "Inspect and audit public websites with Chromium and Playwright for Python. Use when asked to analyze, review, audit, compare, inspect, or navigate a website, landing page, or online store; capture desktop/mobile screenshots; examine technical SEO, performance indicators, accessibility signals, security headers, browser errors, or internal links. Responde y genera informes en español o inglés según el idioma solicitado por el usuario."
+# Display name: Analizador Web / Web Analyzer
+description: "Analizador Web / Web Analyzer: bilingual website inspection and audit with Chromium and Playwright for Python. Use when asked to analyze, review, audit, compare, inspect, or navigate a website, landing page, or online store; capture desktop/mobile screenshots; examine technical SEO, performance indicators, accessibility signals, security headers, browser errors, or internal links. Responde y genera informes en español o inglés según el idioma solicitado por el usuario."
 ---
 
-# Analizador-Web
+# Analizador Web / Web Analyzer
 
 > **Bilingual skill / Skill bilingüe:** The instructions below are provided in Spanish and English. / Las instrucciones siguientes se ofrecen en español e inglés.
 
