@@ -2,7 +2,7 @@ name: Community Skill Checks
 
 on:
   push:
-    branches: [main, community-v1]
+    branches: [main, community-v1, bilingual-v1]
   pull_request:
     branches: [main]
 
@@ -23,4 +23,4 @@ jobs:
       - name: Build Skill ZIP
         run: python scripts/package_skill.py
       - name: Verify ZIP layout
-        run: python -c "from zipfile import ZipFile; z=ZipFile('dist/analizador-web-1.0.0.zip'); assert 'SKILL.md' in z.namelist(); assert 'scripts/analyze_site.py' in z.namelist()"
+        run: python -c "from zipfile import ZipFile; z=ZipFile('dist/analizador-web-1.0.0.zip'); assert 'SKILL.md' in z.namelist(); assert 'scripts/analyze_site.py' in z.namelist(); assert 'references/checklist.es.md' in z.namelist(); assert 'references/checklist.en.md' in z.namelist()"
