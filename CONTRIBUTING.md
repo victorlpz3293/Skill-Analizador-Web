@@ -1,12 +1,15 @@
-# Contributing
+# Contribuir
 
-Contributions are welcome.
+Las contribuciones son bienvenidas.
 
-1. Open an issue describing the problem or proposed enhancement.
-2. Keep the default audit passive and read-only.
-3. Do not add credential collection, authentication bypass, exploitation, hidden-endpoint enumeration, or destructive interactions.
-4. Add or update tests for security-sensitive behavior.
-5. Document platform requirements and known limitations.
-6. Submit a focused pull request with a clear rationale and test evidence.
+1. Abre un issue que describa el problema o la mejora propuesta.
+2. Mantén la auditoría predeterminada en modo pasivo y de solo lectura.
+3. No agregues recolección de credenciales, evasión de autenticación, explotación, enumeración de endpoints ocultos ni interacciones destructivas.
+4. Agrega o actualiza pruebas para los comportamientos sensibles desde el punto de vista de seguridad.
+5. Documenta los requisitos de plataforma y las limitaciones conocidas.
+6. Envía un pull request enfocado, con justificación clara y evidencia de pruebas.
+7. Si modificas documentación, actualiza ambas versiones lingüísticas para mantenerlas equivalentes.
 
-Please do not include real audit reports, credentials, cookies, personal data, or screenshots containing private information.
+No incluyas informes reales de auditoría, credenciales, cookies, datos personales ni capturas que contengan información privada.
+
+**English:** see [CONTRIBUTING.en.md](CONTRIBUTING.en.md).
