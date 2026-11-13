@@ -1,11 +1,13 @@
-# Security Policy
+# Política de seguridad
 
-## Scope
+## Alcance
 
-Analizador-Web is intended for passive inspection of public websites. It is not a penetration-testing tool.
+Analizador-Web está diseñada para la inspección pasiva de sitios web públicos. No es una herramienta de pruebas de penetración.
 
-## Reporting a security issue
+## Reportar un problema de seguridad
 
-Please do not publish exploitable details in a public issue. Use GitHub's private vulnerability reporting feature if enabled for this repository, or contact the maintainer through the contact method listed on the GitHub profile.
+No publiques detalles explotables en un issue público. Utiliza la función de reporte privado de vulnerabilidades de GitHub si está habilitada para este repositorio, o contacta al mantenedor mediante el método de contacto indicado en su perfil de GitHub.
 
-Include the affected version, reproduction conditions, impact, and a proposed mitigation. Do not include real credentials, personal data, or customer information.
+Incluye la versión afectada, las condiciones de reproducción, el impacto y una mitigación propuesta. No incluyas credenciales reales, datos personales ni información de clientes.
+
+**English:** see [SECURITY.en.md](SECURITY.en.md).
